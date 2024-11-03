@@ -2,7 +2,8 @@ from dash import Dash, dcc, html, Input, Output, State, callback
 
 import dash_bootstrap_components as dbc
 
-
+# component to build the input panel - for user query, start and close the conversation.
+# End button allows to download the full chat history.
 inputTitle = html.H4(
     ["Explore the landscape of arms trade and military spending with AI at your side"],
     className=" mt-2  p-3 ",
@@ -19,7 +20,7 @@ inputArea = html.Div(
         dbc.ButtonGroup(
             [
                 dbc.Button(["Submit"], id="id-submitButton"),
-                dbc.Button(["Reset"], id="id-resetButton"),
+                dbc.Button(["End"], id="id-endButton"),
             ],
             className="mb-2",
         ),

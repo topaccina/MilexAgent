@@ -10,7 +10,7 @@ dfCountry = pd.read_csv("./data/CountryExp2022GDP.csv")
 
 #################################################################
 
-
+# components to build the country MILEX expenditure panels (GDP shares, Yearly countries expenditures)
 metricLabel = dbc.Label("Metric Selection")
 countryCheckList = dcc.Dropdown(
     dfCountry.Country.unique(),

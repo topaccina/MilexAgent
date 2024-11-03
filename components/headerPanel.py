@@ -2,7 +2,7 @@ from dash import Dash, dcc, html, Input, Output, State, callback
 
 import dash_bootstrap_components as dbc
 
-
+# components to build the dashboard headers
 title = html.H4(
     [
         "Global Arms Trade and Investments",

@@ -12,7 +12,7 @@ import dash_ag_grid as dag
 dfTrade = pd.read_csv("./data/country_trade_register_postProc.csv")
 
 #################################################################
-
+# components to build the army trading panel - top yearly army trades
 yearsOption = sorted([int(year) for year in dfTrade["Year"].unique()])
 yearsOption = list(map(str, yearsOption))
 

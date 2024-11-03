@@ -2,7 +2,7 @@ from dash import Dash, dcc, html, Input, Output, State, callback
 
 import dash_bootstrap_components as dbc
 
-
+# components to build AI output panel to show LLM comment on produced outputs
 outputPanel = dbc.Container(
     [
         dbc.Row(
