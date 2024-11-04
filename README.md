@@ -19,15 +19,11 @@ The following app section have been implemented so far:
 
     Available visualization: Sankey plot showing the value flow from the arms recipients to their suppliers. summary ag-grid table.
    
-Crew of AI Agents, triggered by the user query (natural language is input), runs under the hood to perform data filtering, trasformation to get the expected output.<br>
-No other Dash filters or other control are used. Crew intermediate steps generate structured data. <br>
-One text field and submit button are the only user access points. <br>
-Both the input and the output dataset are used to populate dedicated Dash ag-grid tables.<br>
-A short analysis summary (~150 Words) is generated and shown in a dedicated app section. <br>
-A dedicated agents help to generate an insightful Plotly visualization showing the analysis results given the user query <br>
-Both The output data in csv format and  the analysis summary in txt format have been exported during dedicated agents operations.
+AI AGENT details WIP! coming soon  <br>
 
-CrewAI framework adopted to implement the Crew, custom and langchain tools have been implemented/integrated.<br>
+
+WIP WIP coming soon custom and langchain tools have been implemented/integrated.<br>
+
 Under development-to join the [Charming Data Community](https://charming-data.circle.so/) Project initiative <br>
 Original Data Source from SIPRI databases.
 [SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
