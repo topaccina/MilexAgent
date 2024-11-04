@@ -1,5 +1,24 @@
 ## App purpose
-Dash app to perform operations on an input dataset on the basis of user textual input.<br>
+Plotly Dash app implementing AI feature and intractive visz on arms trade between countries as well as countries military expenditures.<br>
+Original Data Source from SIPRI databases.
+[SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
+[SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex)
+Data post-processed, filtered to get the proper format to design the interactive Plotly visualization.
+User experience AI assisted. AI assistant w/ Memory implemented to support the user to navigate in the dashboard section and get insights from the data.
+The assistant show different dashboard section according to the user questions and interests. 
+Each agent action is properly documented with a short explanation (max 150 words) shown in a dedicated panel app.
+Assistant can access to the web and embedded data (RAG) to expand the user learing experience.
+User can download the chat history.
+
+The following app section have been implemented so far:
+1) input panel to submit user query and close the conversation/export the chat history
+2) output panel visualizing the brief explanation of the agent action and generated output
+3) main panel showing the requested dashboard section:
+4) --> coutry military expense:Data related to countries Military expenditures per years in constant (2022) US Dollars and in terms of their GDP Shares. Available visualization: animated map showing the evolution of the selected metric. Interactive line chart allows countries trend comparison.
+5) -->country military trading and value flow. Data are related to countries arms trasfer with focus on the value flow. Data are grouped per year and limited to the top 10 coutries trading.  
+
+    Available visualization: Sankey plot showing the value flow from the arms recipients to their suppliers. summary ag-grid table.
+   
 Crew of AI Agents, triggered by the user query (natural language is input), runs under the hood to perform data filtering, trasformation to get the expected output.<br>
 No other Dash filters or other control are used. Crew intermediate steps generate structured data. <br>
 One text field and submit button are the only user access points. <br>
@@ -10,6 +29,11 @@ Both The output data in csv format and  the analysis summary in txt format have 
 
 CrewAI framework adopted to implement the Crew, custom and langchain tools have been implemented/integrated.<br>
 Under development-to join the [Charming Data Community](https://charming-data.circle.so/) Project initiative <br>
+Original Data Source from SIPRI databases.
+[SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
+[SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex)
+Data post-processed, filtered to get the proper format to design the interactive Plotly visualization
+
 
 ## App Schema
 ![WIP]()
