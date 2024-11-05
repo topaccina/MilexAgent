@@ -10,7 +10,7 @@ Each agent action is properly documented with a short explanation (max 150 words
 Assistant can access to the web and embedded data (RAG) to expand the user learing experience.
 User can download the chat history.
 
-## The following app section have been implemented so far:
+#### App section implemented so far:
 1. input panel to submit user query and end the conversation/export the chat history
 2. output panel visualizing the brief explanation of the agent action and generated output
 3. main panel showing the requested dashboard section:
@@ -22,11 +22,11 @@ User can download the chat history.
 >> Arms trasfer with focus on the value flow (from recipents to suppliers). Data are grouped per year and limited to the top 10 coutries trading.
 >> Available visualization: Sankey plot showing the value flow from the arms recipients to their suppliers. Dash ag-grid  summarytable.
    
-## AI AGENT implementation  <br>
+#### Agent implementation:  <br>
 Implementation of a LangGraph react agent executor using the create_react_agent. This is to easy  manage the agent's cycles and tracks the scratchpad as messages within its state.
 Prompt with System instruction passed as agent modifier state parameter, and MemorySaver object assigned to the agent checkpointer for chat history persistence 
  
-## The following tools are available for the agent operation so far:
+#### Avaialable Tools:
 1.    Langchain Wikipedia tool
 2.    retriever tool as RAG tool. Chroma db vector store as retriever. [SIRPI database](https://www.sipri.org/databases) page content embedded and store
 3.    Langhchain DuckDuckGoSearch tool
@@ -37,10 +37,6 @@ Original Data Source from SIPRI databases.
 [SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
 [SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex)
 Data post-processed, filtered to get the proper format to design the interactive Plotly visualization
-
-
-## App Schema
-![WIP]()
 
 ## Video Demo
 [![WIP]()
