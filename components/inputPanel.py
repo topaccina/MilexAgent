@@ -9,7 +9,7 @@ inputTitle = html.H4(
     className=" mt-2  p-3 ",
 )
 
-popover_info = 'Start to chat with your assistant. Introduce yourself and ask about what you can learn in this app. Once your journey is done, by clicking "end" you can download your chat history '
+popover_info = 'Start to chat with your assistant. Ask what you can learn in this app. Download your chat history by clicking "End" '
 
 inputArea = dbc.Container(
     [
