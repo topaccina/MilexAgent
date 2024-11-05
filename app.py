@@ -62,10 +62,6 @@ config = {"configurable": {"thread_id": "thread-2"}}
 ################################################################
 
 
-# stylesheet with the .dbc class to style  dcc, DataTable and AG Grid components with a Bootstrap theme
-# dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
-#
-
 # app definition and main panels.
 # For the panels content design refer to the py files under component folder
 # this is to keep a modular design
@@ -113,7 +109,6 @@ app.layout = dbc.Container(
                     ],
                     width=10,
                 ),
-                # dbc.Col([tabs, colors], width=8),
             ],
             justify="center",
         ),

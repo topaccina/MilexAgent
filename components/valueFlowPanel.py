@@ -186,7 +186,7 @@ def yearSel(sel):
                     align="left",
                 ),
                 link=dict(
-                    source=df2.Rid.values,  # indices correspond to labels, eg A1, A2, A1, B1, ...
+                    source=df2.Rid.values,
                     target=df2.Sid.values,
                     value=df2.Value.values,
                     arrowlen=15,
