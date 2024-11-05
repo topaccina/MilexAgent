@@ -1,29 +1,4 @@
 Human Message:
-let's start! what can I learn from this app?
+armiy transfer value go to please
 AI Message:
-Welcome! This app provides insights into arms trade between countries and their military expenditures. Here's what you can explore:
-
-1. **Arms Trade**: Discover data on arms transfers, focusing on the value flow between countries. The information is grouped by year and highlights the top 10 trading countries.
-
-2. **Military Expenditures**: Learn about countries' military spending over the years, presented in constant (2022) US Dollars and as a share of their GDP.
-
-The data is sourced from SIPRI databases, and it's recommended to visit the SIPRI website for more details on the data sources. Enjoy exploring the interactive and insightful plots!
-Human Message:
-so show me something about countries military expenditures
-AI Message:
-You can explore data on countries' military expenditures over the years, presented in constant (2022) US Dollars and as a share of their GDP. This information is sourced from the MILEX database by SIPRI.
-
-The app offers two main visualizations:
-
-1. **Animated Map**: Watch the evolution of military expenditures over time for different countries.
-2. **Interactive Line Chart**: Compare trends between countries to see how their military spending has changed.
-
-These tools provide a comprehensive view of global military expenditures. Enjoy exploring the data!
-Human Message:
-hanks. Interesting! I see that there was a big army expense increase around 2007 in Georgia. What happened? any war?
-AI Message:
-In 2008, Georgia experienced a significant military expenditure increase due to the Russo-Georgian War. This conflict, also known as the Russian invasion of Georgia, involved the Russian Federation and the Russian-backed separatist regions of South Ossetia and Abkhazia. It is considered the first European war of the 21st century.
-
-The war began on August 1, 2008, when South Ossetian forces, supported by Russia, started shelling Georgian villages. In response, Georgia sent troops into the South Ossetian conflict zone on August 7. Russia then launched a full-scale invasion of Georgia on August 8, claiming it was a "peace enforcement" operation.
-
-The conflict resulted in significant destruction and displacement, with Russian forces temporarily occupying several Georgian cities. The war ended with a ceasefire agreement on August 12, 2008, but tensions and geopolitical impacts continued.
+You can explore data related to countries' arms transfers, focusing on the value flow. The data is grouped by year and limited to the top 10 countries involved in trading. This information is sourced from the SIPRI Arms Transfers Database. A Sankey plot is available to visualize the value flow from arms recipients to their suppliers.
