@@ -10,19 +10,27 @@ Each agent action is properly documented with a short explanation (max 150 words
 Assistant can access to the web and embedded data (RAG) to expand the user learing experience.
 User can download the chat history.
 
-The following app section have been implemented so far:
-1) input panel to submit user query and close the conversation/export the chat history
-2) output panel visualizing the brief explanation of the agent action and generated output
-3) main panel showing the requested dashboard section:
-4) --> coutry military expense:Data related to countries Military expenditures per years in constant (2022) US Dollars and in terms of their GDP Shares. Available visualization: animated map showing the evolution of the selected metric. Interactive line chart allows countries trend comparison.
-5) -->country military trading and value flow. Data are related to countries arms trasfer with focus on the value flow. Data are grouped per year and limited to the top 10 coutries trading.  
+## The following app section have been implemented so far:
+1. input panel to submit user query and end the conversation/export the chat history
+2. output panel visualizing the brief explanation of the agent action and generated output
+3. main panel showing the requested dashboard section:
+> Countries military expense:
+>> countries Military expenditures per years in constant (2022) US Dollars and in terms of their GDP Shares.
+>> Available visualization: animated map showing the evolution of the selected metric. Interactive line chart allows countries trend comparison.
 
-    Available visualization: Sankey plot showing the value flow from the arms recipients to their suppliers. summary ag-grid table.
+> Country military trading and value flow.
+>> Arms trasfer with focus on the value flow (from recipents to suppliers). Data are grouped per year and limited to the top 10 coutries trading.
+>> Available visualization: Sankey plot showing the value flow from the arms recipients to their suppliers. Dash ag-grid  summarytable.
    
-AI AGENT details WIP! coming soon  <br>
-
-
-WIP WIP coming soon custom and langchain tools have been implemented/integrated.<br>
+## AI AGENT implementation  <br>
+Implementation of a LangGraph react agent executor using the create_react_agent. This is to easy  manage the agent's cycles and tracks the scratchpad as messages within its state.
+Prompt with System instruction passed as agent modifier state parameter, and MemorySaver object assigned to the agent checkpointer for chat history persistence 
+ 
+## The following tools are available for the agent operation so far:
+1.    Langchain Wikipedia tool
+2.    retriever tool as RAG tool. Chroma db vector store as retriever. [SIRPI database](https://www.sipri.org/databases) page content embedded and store
+3.    Langhchain DuckDuckGoSearch tool
+4.    Set of custom tools called to navigate in the proper section of the dashboard. when the agent select the section on the bases of the user query, Dash store value component is updated. This trigger a callback that update the visualization.
 
 Under development-to join the [Charming Data Community](https://charming-data.circle.so/) Project initiative <br>
 Original Data Source from SIPRI databases.
