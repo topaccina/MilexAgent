@@ -3,7 +3,8 @@ Plotly Dash app implementing AI feature and intractive visz on arms trade betwee
 Original Data Source from SIPRI databases.
 [SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
 [SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex)
-Data post-processed, filtered to get the proper format to design the interactive Plotly visualization.
+<br>
+Data post-processed and used for interactive Plotly visualization design.
 User experience AI assisted. AI assistant w/ Memory implemented to support the user to navigate in the dashboard section and get insights from the data.
 The assistant show different dashboard section according to the user questions and interests. 
 Each agent action is properly documented with a short explanation (max 150 words) shown in a dedicated panel app.
