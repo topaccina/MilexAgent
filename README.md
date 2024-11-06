@@ -32,8 +32,6 @@ The application includes an AI-powered assistant with memory capabilities, desig
        - Summary table using Dash AG-Grid for additional details.
    
 
-markdown
-Copia codice
 #### Agent Implementation
 
 Implementation of a `LangGraph` ReAct agent executor using the `create_react_agent` function. This structure facilitates efficient management of agent cycles, tracking the scratchpad as messages within the agent’s state. System instructions are embedded in the agent as state-modifying parameters, with a `MemorySaver` object assigned to the agent’s checkpointer to ensure chat history persistence.
