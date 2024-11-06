@@ -66,7 +66,7 @@ Data has been post-processed and filtered to a format optimized for interactive 
 2. **LangChain Framework**: Utilized for custom agent tool implementations.
 3. **LangChain Predefined Tools**: Includes Wikipedia, web search, and retriever tools.
 4. **Chroma DB as Vector Store**: For managing embedding data.
-5. **OpenAI GPT-4**: Primary model for NLP tasks.
+5. **OpenAI GPT-4o**: Primary model for NLP tasks.
 
 ## Known Limitations and Potential Improvements
 1. Ongoing development to handle exceptions and refine prompts for better output quality.
