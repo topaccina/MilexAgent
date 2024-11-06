@@ -52,7 +52,7 @@ Implementation of a `LangGraph` ReAct agent executor using the `create_react_age
 Data has been post-processed and filtered to a format optimized for interactive Plotly visualizations.
 
 ## Video Demo
-[![WIP](link_here)]()
+[![Watch the video]([(https://img.youtube.com/vi/B8wxt19-M0Y/0.jpg)](https://www.youtube.com/watch?v=B8wxt19-M0Y)
 
 ## Main App Features
 1. **Dash App Design**: Includes GUI components and interactive visualizations.
