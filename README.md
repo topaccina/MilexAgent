@@ -3,7 +3,7 @@ This Plotly Dash application integrates AI-driven functionality and interactive 
 [SIPRI Arms Transfers Database](https://www.sipri.org/databases/armstransfers)
 [SIPRI Military Expenditure Database](https://www.sipri.org/databases/milex)
 <br>
-The application includes an AI-powered assistant with memory capabilities, designed to enhance the user experience by dynamically adapting dashboard content based on user queries and interests. Each agent action is documented with concise descriptions (up to 150 words) in a dedicated panel within the application. Additionally, the assistant supports Retrieval-Augmented Generation (RAG) by leveraging both web and embedded data, providing a comprehensive user learning experience. Users have the option to download their full chat history for later reference.
+The application includes an AI-powered assistant with memory capabilities, built using Langraph, designed to enhance the user experience by dynamically adapting dashboard content based on user queries and interests. Each agent action is documented with concise descriptions (up to 150 words) in a dedicated panel within the application. Additionally, the assistant supports Retrieval-Augmented Generation (RAG) by leveraging both web and embedded data, providing a comprehensive user learning experience. Users have the option to download their full chat history for later reference.
 
 #### Current App Sections Implemented:
 
